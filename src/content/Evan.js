@@ -77,7 +77,8 @@ class Evan extends React.Component {
 					company: 'Personal & Family',
 					title: 'Developer & Webmaster',
 					time: 'September 2013 – Present',
-					description: '',
+					description:
+						"Over the past couple of years, friends and family have presented different ideas for apps. Some of them have made it, others have not. I've also maintained my parents business website as well as upgraded the backend to handle additional needs (such as inventory, image, and customer management). I'm always looking for the lastest web design standard, programming languages, and overall tech stack.",
 				},
 			],
 		});
