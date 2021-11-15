@@ -62,7 +62,7 @@ class Evan extends React.Component {
 					title: 'System Engineer',
 					time: 'September 2018 – Present',
 					description:
-						"I was orginalyl hired to perfom helpdesk duties as well as implent an ERP. During my time as a System Anaylst, I've found myself Assist users both on-site and remotely; exercise the abilities of Microsoft SCCM to maintain, log, and troubleshoot tickets. I've also held responsibilities in documenting, presenting, and training users on application usage. Furthermore I have deployed, maintained, and troubleshooted core Hyper-V, DHCP, DNS, AD, and file servers as well as created PowerShell scripts for automation and increased efficiencies. Once moving to a System Enginer, I found myself surpassing my intial tasks of ERP Implentation and taking on the duties of working with third party vendor to test, implenet, and train users on the new processed. I also found myself customizting the ERP to add additional request functionalities to the system. Working along side users, I not only was able to listen to their pain points, but find strategies to improve day to day tasks.",
+						"I was originally hired to perform helpdesk duties as well as implement an ERP. During my time as a System Analyst, I've found myself assisting users both on-site and remotely; exercising the abilities of Microsoft SCCM to maintain, log, and troubleshoot tickets. I've also held responsibilities in documenting, presenting, and training users on application usage. Furthermore, I have deployed, maintained, and troubleshot core Hyper-V, DHCP, DNS, AD, and file servers as well as created PowerShell scripts for automation and increased efficiencies. Once moving to a System Engineer, I found myself surpassing my initial tasks of ERP Implementation and taking on the duties of working with third-party vendors to test, implement, and train users on the new process. I also found myself customizing the ERP to add additional request functionalities to the system. Working alongside users, I not only was able to listen to their pain points but find strategies to improve day-to-day tasks.",
 				},
 				{
 					panel: 2,
@@ -78,7 +78,7 @@ class Evan extends React.Component {
 					title: 'Developer & Webmaster',
 					time: 'September 2013 – Present',
 					description:
-						"Over the past couple of years, friends and family have presented different ideas for apps. Some of them have made it, others have not. I've also maintained my parents business website as well as upgraded the backend to handle additional needs (such as inventory, image, and customer management). I'm always looking for the lastest web design standard, programming languages, and overall tech stack.",
+						"Over the past couple of years, friends and family have presented different ideas for apps. Some of them have made it, others have not. I've also maintained my parents' business website as well as upgraded the backend to handle additional needs (such as inventory, image, and customer management). I'm always looking for the latest web design standard, programming languages, and overall tech stack.",
 				},
 			],
 		});
@@ -112,8 +112,8 @@ class Evan extends React.Component {
 					About Me
 				</Typography>
 				<Typography variant='h5' align='center' color='text.secondary' component='p'>
-					have been programming and providing user-based solutions for over 3 years while working within Information Technology the last 5 years. I’m seeking to continue working in innovated
-					development and future focused deployment.
+					I have been programming and providing user-based solutions for over 3 years while working within Information Technology for the last 5 years. I’m seeking to continue working in
+					innovated development and future-focused deployment.
 				</Typography>
 			</Container>
 
