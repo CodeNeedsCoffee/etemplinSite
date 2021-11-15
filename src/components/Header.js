@@ -20,7 +20,7 @@ class Header extends React.Component {
 	}
 
 	renderBody = () => (
-		<AppBar id='top' position='static' color='default' elevation={0} sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}>
+		<AppBar id='top' color='default' elevation={0} sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}>
 			<Toolbar sx={{ flexWrap: 'wrap' }}>
 				<Typography variant='h6' color='inherit' noWrap sx={{ flexGrow: 1 }}>
 					Evan Templin
@@ -40,7 +40,7 @@ class Header extends React.Component {
 		</AppBar>
 	);
 	render() {
-		return <div>{this.renderBody()}</div>;
+		return <div style={{ position: 'sticky', zIndex: 1, top: 0 }}>{this.renderBody()}</div>;
 	}
 }
 

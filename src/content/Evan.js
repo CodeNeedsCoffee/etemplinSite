@@ -103,7 +103,7 @@ class Evan extends React.Component {
 			<GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
 			<CssBaseline />
 			<Container disableGutters maxWidth='sm' component='main' sx={{ pt: 8, pb: 6 }}>
-				<div style={{ display: 'flex', justifyContent: 'center' }}>
+				<div style={{ display: 'flex', justifyContent: 'center', marginTop: 25 }}>
 					<Avatar alt='Evan Templin' src='/1.png' sx={{ width: 150, height: 150, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} />
 				</div>
 
