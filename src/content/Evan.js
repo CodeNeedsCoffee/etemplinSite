@@ -45,6 +45,7 @@ class Evan extends React.Component {
 					description: ['NodeJS', 'ReactJS', 'JavaScript/jQuery', 'ASP .NET', 'C# & VB .NET'],
 					buttonText: "See This Site's code",
 					buttonVariant: 'contained',
+					url: 'https://github.com/CodeNeedsCoffee/etemplinSite/',
 				},
 				{
 					title: 'Design',
@@ -120,14 +121,14 @@ class Evan extends React.Component {
 					Skills
 				</Typography>
 				<Grid container spacing={5} alignItems='flex-end'>
-					{this.state.skills.map((tier) => (
-						<Grid item key={tier.title} xs={12} sm={tier.title === 'Design' ? 12 : 6} md={4}>
+					{this.state.skills.map((skill) => (
+						<Grid item key={skill.title} xs={12} sm={skill.title === 'Design' ? 12 : 6} md={4}>
 							<Card>
 								<CardHeader
-									title={tier.title}
-									subheader={tier.subheader}
+									title={skill.title}
+									subheader={skill.subheader}
 									titleTypographyProps={{ align: 'center' }}
-									action={tier.star === true ? <StarIcon /> : null}
+									action={skill.star === true ? <StarIcon /> : null}
 									subheaderTypographyProps={{
 										align: 'center',
 									}}
@@ -137,7 +138,7 @@ class Evan extends React.Component {
 								/>
 								<CardContent>
 									<ul>
-										{tier.description.map((line) => (
+										{skill.description.map((line) => (
 											<Typography component='li' variant='subtitle1' align='center' key={line}>
 												{line}
 											</Typography>
@@ -145,8 +146,8 @@ class Evan extends React.Component {
 									</ul>
 								</CardContent>
 								<CardActions>
-									<Button fullWidth variant={tier.buttonVariant}>
-										{tier.buttonText}
+									<Button fullWidth variant={skill.buttonVariant} href={skill.url} target='_blank'>
+										{skill.buttonText}
 									</Button>
 								</CardActions>
 							</Card>
