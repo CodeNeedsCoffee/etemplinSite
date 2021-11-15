@@ -26,7 +26,7 @@ class Footer extends React.Component {
 				{
 					title: 'Current Dev',
 					description: [
-						{ name: 'Pet Tracking App', url: 'https://www.puppyclock.com/' },
+						{ name: 'Pet Tracking App', url: 'https://puppyclock.com/' },
 						{ name: ' Gift Management App', url: 'https://giftamizer.com/' },
 					],
 				},
